@@ -108,6 +108,7 @@ GEM
       rake-compiler
     fast_xs (0.8.0)
     fastimage_discourse (1.6.6)
+    ffaker (2.2.0)
     ffi (1.9.10)
     flamegraph (0.1.0)
       fast_stack
@@ -421,6 +422,7 @@ DEPENDENCIES
   fast_xor
   fast_xs
   fastimage_discourse
+  ffaker
   flamegraph
   foreman
   gctools

@@ -34,6 +34,15 @@ If you want to set up a Discourse forum for production use, see our [**Discourse
 
 If you're looking for business class hosting, see [discourse.org/buy](https://www.discourse.org/buy/).
 
+## WeddingWire Setup
+
+To seed the database run the following tasks in order:
+
+`rake db:import_forum_discussions`
+`rake db:import_forum_comments`
+
+There is also a block of code located at the bottom of lib/tasks/import_old_forums.rake that will randomly add likes to posts.
+
 ## Requirements
 
 Discourse is built for the *next* 10 years of the Internet, so our requirements are high:
